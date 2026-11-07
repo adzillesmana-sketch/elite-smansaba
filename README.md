@@ -13,6 +13,9 @@ Website statis untuk organisasi ELITE tahun kepengurusan 2026/2027. Dibuat denga
 
 3. Buka `http://localhost:8000`.
 
+Setelah deployment GitHub Pages selesai, website tersedia di
+`https://adzillesmana-sketch.github.io/elite-smansaba/`.
+
 Font menggunakan Google Fonts jika koneksi internet tersedia; font sistem digunakan sebagai fallback.
 
 ## Isi project
