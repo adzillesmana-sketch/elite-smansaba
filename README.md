@@ -29,9 +29,16 @@ Font menggunakan Google Fonts jika koneksi internet tersedia; font sistem diguna
 - `assets/logo-sman1-babakan.png` — lambang sekolah.
 - `assets/foto_insan_fadilah.png` — foto khusus Ketua Umum Insan Fadilah.
 - `assets/foto_dwi_chantica.png` — foto khusus Bendahara 1, Dwi Chantica Ramadani.
+- `assets/foto_fajri_zulkarnaen.jpeg` — foto Bendahara, Fajri Zulkarnaen.
 - `assets/foto_putri_komala_sari.png` — foto khusus Koordinator Silat Putri, Putri Komala Sari.
 - `assets/foto_kaeyla_putri_alifah.png` — foto khusus Sekretaris 1, Kaeyla Putri Alifah.
 - `assets/foto_avara_althafunnisa.png` — foto khusus Avara Althafunnisa, Koordinator Cabor.
+- `assets/foto_dea_herlina.jpeg` — foto Koordinator Cabor, Dea Herlina.
+- `assets/foto_reyhan_dayana.jpeg` — foto Koordinator Cabor, Reyhan Dayana.
+- `assets/foto_rafa_ramadhan.jpeg` — foto Seksi Humas, Rafa Ramadhan.
+- `assets/foto_reisya_first_dilia.jpeg` — foto Seksi Humas, Reisya First Dilia.
+- `assets/foto_chika_aulia.jpeg` — foto Seksi PDD, Chika Aulia.
+- `assets/foto_aldi_ermawan.jpeg` — foto Seksi PDD, Aldi Ermawan.
 
 ## Mengubah data
 
@@ -50,4 +57,4 @@ Galeri saat ini menggunakan ilustrasi grafis CSS, bukan foto anggota atau dokume
 
 - Bagian peresmian dirancang sebagai materi presentasi layar. Gunakan tombol “Tampilkan di layar” untuk mode layar penuh; tekan `Esc` untuk keluar. Tahun kepengurusan ditampilkan sebagai 2026/2027; tanggal acara tidak dicantumkan karena belum diberikan.
 - Panel pengelolaan lokal tidak memiliki autentikasi atau backend dan bukan untuk pengelolaan website publik. Publikasi perubahan bersama membutuhkan backend dengan autentikasi yang benar.
-- Bagian AD/ART masih berupa placeholder sampai dokumen resmi ditambahkan. Tautan yang tersedia membuka folder referensi Google Drive yang diberikan.
+- Bagian AD/ART memuat seluruh ketentuan resmi Bab I Anggaran Dasar (Nama, Tempat, Waktu, dan Kedudukan) serta Anggaran Rumah Tangga (Bentuk, Susunan, dan Masa Jabatan Pengurus) dengan tampilan tab interaktif dan tautan ke folder referensi Google Drive.
