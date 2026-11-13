@@ -405,20 +405,57 @@ dialog::backdrop { background: rgba(2,5,10,.78); backdrop-filter: blur(5px); }
 .button-delete-ann:hover { background: rgba(239, 68, 68, .3); }
 .admin-empty-note { font-size: 11px; color: var(--muted); margin: 6px 0; }
 
-@media (max-width: 900px) {
-  .section-wrap { width: min(100% - 44px, 740px); }
-  .site-header { padding-inline: 22px; }
-  .primary-nav { gap: 18px; }
-  .header-cta { display: none; }
-  .hero { min-height: 610px; grid-template-columns: 1.1fr .9fr; }
-  .hero-art { min-height: 400px; }
-  .roster-grid { grid-template-columns: repeat(2, 1fr); }
-  .stats-inner { grid-template-columns: repeat(4, 1fr); }
-  .stat-lead { grid-column: span 4; }
-  .stat-item:first-of-type { padding-left: 0; border-left: 0; }
-  .updates-grid { grid-template-columns: repeat(2, 1fr); }
-  .roles-grid { grid-template-columns: repeat(2, 1fr); }
-  .role-item-wide { grid-column: span 2; }
+@media (max-width: 768px) {
+  .commitment-section {
+    padding: 3rem 1.25rem;
+  }
+
+  .commitment-heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    min-height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .commitment-identity {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .commitment-main {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .commitment-title h2 {
+    font-size: 2.25rem;
+    line-height: 1.1;
+  }
+
+  .commitment-copy {
+    font-size: 0.95rem;
+  }
+
+  .commitment-pillars {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .commitment-pillars article {
+    padding: 1.25rem;
+  }
+
+  .commitment-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+  }
 }
 @media (max-width: 640px) {
   html { scroll-padding-top: 70px; }
